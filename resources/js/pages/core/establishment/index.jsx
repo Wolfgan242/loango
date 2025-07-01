@@ -148,7 +148,7 @@ const Index = ({establishments, user}) => {
       {/* Titre et bouton d'ajout */}
       <Row className="mb-4 align-items-center">
         <Col>
-          <h2 className="fw-bold">Gestion des establishments</h2>
+          <h2 className="fw-bold">Gestion d'Etablissements</h2>
         </Col>
         <Col className="text-end">
           <OverlayTrigger
@@ -237,7 +237,7 @@ const Index = ({establishments, user}) => {
         <Card.Header className="bg-dark text-white">
           <Row>
             <Col>
-              Liste des establishments
+              Liste d'etablissements
             </Col>
             <Col className="text-end">
             <FaInfoCircle className="me-2" />
