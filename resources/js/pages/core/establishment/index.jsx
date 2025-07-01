@@ -148,7 +148,7 @@ const Index = ({establishments, user}) => {
       {/* Titre et bouton d'ajout */}
       <Row className="mb-4 align-items-center">
         <Col>
-          <h2 className="fw-bold">Gestion d'Etablissements</h2>
+          <h2 className="fw-bold">Gestion d'Etablissements.</h2>
         </Col>
         <Col className="text-end">
           <OverlayTrigger
