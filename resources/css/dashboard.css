@@ -1,0 +1,92 @@
+/* Full-width background */
+.dashboard-container {
+    padding: 2rem;
+  }
+  
+  /* Report card styling */
+  .money-report {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .wallet-icon {
+    font-size: 30px;
+    color: #007bff;
+  }
+  
+  /* Income & Expenses */
+  .report-box {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .income {
+    background: #e8f5e9;
+    color: #28a745;
+  }
+  
+  .expenses {
+    background: #fdecea;
+    color: #dc3545;
+  }
+  
+  .report-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .up {
+    color: #28a745;
+  }
+  
+  .down {
+    color: #dc3545;
+  }
+  
+  /* Transactions Table */
+  .transactions-card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background: white;
+  }
+  
+  /* Future Payments */
+  .future-payments, .social-payments {
+    width: 100%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background: white;
+  }
+  
+  .future-payment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Social Payments */
+  .social-payment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 1rem;
+    }
+  }
+  
